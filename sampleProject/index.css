@@ -1,0 +1,27 @@
+body{
+   margin: 10px;
+}
+.img-profile {
+    width: 150px;
+    
+}
+.card{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    padding: 20px;
+     color: #252627;
+     background: #d3d4d9;
+     text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     border-bottom: 10px solid #bfdbf7;
+     border-radius: 5px;
+}
+/* .blue-border{
+border: 1px dotted blue;
+} */
+.card:hover {
+    background: #c0c1c6;
+    box-shadow: 10px 10px #1f7a8c, inset 0 0 10px #ffffff;
+}
